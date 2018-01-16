@@ -66,7 +66,7 @@ p0 = [0.5, 0.5]
 fit = curve_fit(model, xdata, ydata, p0)
 ```
 """
-function curve_fit end
+#function curve_fit end
 
 function curve_fit(model::Function, xpts::AbstractArray, ydata::AbstractArray, p0; kwargs...)
     # construct the cost function
